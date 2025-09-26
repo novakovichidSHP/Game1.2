@@ -39,7 +39,7 @@ function startGame(dif) {
     const cells = [];
     //создаем и сортируем массив с числами
     // const numbers = [...Array(dif * dif - 1).keys()].sort(() => Math.random() - 0.5);
-    const numbers = [7, 6, 1, 0, 3, 4, 5, 2]
+    const numbers = [7, 6, 1, 0, 3, 5, 4, 2]
     for (let i = 0; i <= dif * dif - 2; i++) {
         //создаем тег
         const cell = document.createElement('div');
